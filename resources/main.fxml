@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="354.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLWidgetController">
+   <children>
+      <Button fx:id="button_1" layoutX="160.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleButton1Click" prefHeight="25.0" prefWidth="37.0" text="1" />
+      <Button fx:id="button_2" layoutX="209.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleButton2Click" prefHeight="25.0" prefWidth="37.0" text="2" />
+      <Button fx:id="button_3" layoutX="259.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleButton3Click" prefHeight="25.0" prefWidth="37.0" text="3" />
+      <Button fx:id="button_4" layoutX="160.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleButton4Click" prefHeight="25.0" prefWidth="37.0" text="4" />
+      <Button fx:id="button_5" layoutX="209.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleButton5Click" prefHeight="25.0" prefWidth="37.0" text="5" />
+      <Button fx:id="button_6" layoutX="259.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleButton6Click" prefHeight="25.0" prefWidth="37.0" text="6" />
+      <Button fx:id="button_7" layoutX="160.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleButton7Click" prefHeight="25.0" prefWidth="37.0" text="7" />
+      <Button fx:id="button_8" layoutX="209.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleButton8Click" prefHeight="25.0" prefWidth="37.0" text="8" />
+      <Button fx:id="button_9" layoutX="259.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleButton9Click" prefHeight="25.0" prefWidth="37.0" text="9" />
+      <Button fx:id="button_0" layoutX="209.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButton0Click" prefHeight="25.0" prefWidth="37.0" text="0" />
+      <Button fx:id="button_add" layoutX="28.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleButtonAddClick" prefHeight="25.0" prefWidth="37.0" text="+" />
+      <Button fx:id="button_subtract" layoutX="80.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleButtonSubtractClick" prefHeight="25.0" prefWidth="37.0" text="-" />
+      <Button fx:id="button_multiply" layoutX="28.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleButtonMultiplyClick" prefHeight="25.0" prefWidth="37.0" text="*" />
+      <Button fx:id="button_divide" layoutX="80.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleButtonDivideClick" prefHeight="25.0" prefWidth="37.0" text="/" />
+      <TextField fx:id="textbox_main" layoutX="28.0" layoutY="36.0" prefHeight="55.0" prefWidth="264.0" />
+      <Button fx:id="button_clear" layoutX="92.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonClearClick" text="Clear" />
+      <Button fx:id="button_enter" layoutX="25.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonEnterClick" text="Enter" />
+      <Button layoutX="21.0" layoutY="260.0" mnemonicParsing="false" text="Backspace" fx:id = "button_backspace" onAction="#handleButtonBackspaceClick"/>
+      <Button layoutX="29.0" layoutY="189.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="\%" fx:id="button_modulus" onAction="#handleButtonModulusClick"/>
+      <Button layoutX="80.0" layoutY="189.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="^" fx:id="button_exponent" onAction="#handleButtonExponentClick"/>
+      <Button layoutX="259.0" layoutY="225.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="." fx:id="button_dot" onAction="#handleButtonDotClick"/>
+   </children>
+</AnchorPane>
